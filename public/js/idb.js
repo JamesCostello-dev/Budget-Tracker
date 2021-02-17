@@ -1,5 +1,3 @@
-const { json } = require("express");
-
 let db;
 
 const request = indexedDB.open('budget', 1);
@@ -12,7 +10,7 @@ request.onupgradeneeded = function (event) {
 request.onsuccess = function (event) {
   db = event.target.result;
   if (navigator.onLine) {
-    uploadBudget()
+    saveRecord()
   }
 };
 
