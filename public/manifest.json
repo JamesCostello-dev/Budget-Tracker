@@ -1,4 +1,6 @@
 {
+  "name": "Budget App",
+  "short_name": "budget",
   "icons": [
     {
       "src": "assets/icons/icon_72x72.png",
@@ -41,12 +43,8 @@
       "type": "image/png"
     }
   ],
-  "name": "Budget App",
-  "short_name": "budget",
-  "orientation": "portrait",
   "display": "standalone",
   "start_url": ".",
-  "description": "An app that allows you to track your budget.",
   "background_color": "#01579b",
   "theme_color": "#ffffff"
 }
