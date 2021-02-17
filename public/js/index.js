@@ -82,14 +82,17 @@ function sendTransaction(isAdding) {
   let nameEl = document.querySelector("#t-name");
   let amountEl = document.querySelector("#t-amount");
   let errorEl = document.querySelector(".form .error");
+  let successEl = document.querySelector('.form .success')
 
   // validate form
   if (nameEl.value === "" || amountEl.value === "") {
     errorEl.textContent = "Missing Information";
+    successEl.textContent = '';
     return;
   }
   else {
-    errorEl.textContent = "";
+    successEl.textContent = 'Added Funds';
+    errorEl.textContent = '';
   }
 
   // create record
@@ -102,6 +105,8 @@ function sendTransaction(isAdding) {
   // if subtracting funds, convert amount to negative number
   if (!isAdding) {
     transaction.value *= -1;
+    successEl.textContent = 'Subtracted Funds';
+    errorEl.textContent = '';
   }
 
   // add to beginning of current array of data

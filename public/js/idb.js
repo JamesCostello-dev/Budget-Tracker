@@ -47,7 +47,6 @@ function uploadBudget() {
           const trasnaction = db.trasnaction(['new_budget'], 'readwrite');
           const budgetObjectStore = trasnaction.objectStore('new_budget');
           budgetObjectStore.clear();
-          alert('Budget data has been submitted!');
         })
         .catch(err => {
           console.log(err)

@@ -26,6 +26,10 @@ tr:nth-child(even) {
   color: red;
 }
 
+.success {
+  color: green;
+}
+
 .wrapper {
   margin: 0 auto;
   max-width: 825px;

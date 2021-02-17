@@ -1,5 +1,5 @@
 {
-  "name": "Budget App",
+  "name": "Budget-App",
   "short_name": "budget",
   "icons": [
     {
@@ -45,6 +45,6 @@
   ],
   "display": "standalone",
   "start_url": ".",
-  "background_color": "#01579b",
+  "background_color": "#ffffff",
   "theme_color": "#ffffff"
 }
