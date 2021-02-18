@@ -17,7 +17,7 @@ JavaScript, Node, Express, MongoDB, Mongoosejs, Compression, Morgan
 
 ## Project Repository
 
-[Repository Link](https://github.com/JamesCostello-dev/super-journey)
+[Repository Link](https://github.com/JamesCostello-dev/curly-octo-fortnight)
 
 ## Media
 
