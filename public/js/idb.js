@@ -10,7 +10,7 @@ request.onupgradeneeded = function (event) {
 request.onsuccess = function (event) {
   db = event.target.result;
   if (navigator.onLine) {
-    saveRecord()
+    uploadBudget()
   }
 };
 
@@ -25,15 +25,15 @@ function saveRecord(record) {
 };
 
 function uploadBudget() {
-  const trasnaction = db.trasnaction(['new_budget'], 'readwrite');
-  const budgetObjectStore = trasnaction.budgetObjectStore('new_budget');
+  const transaction = db.transaction(['new_budget'], 'readwrite');
+  const budgetObjectStore = transaction.objectStore('new_budget');
   const getAll = budgetObjectStore.getAll();
 
   getAll.onsuccess = function () {
-    if (getAll.results.length > 0) {
+    if (getAll.result.length > 0) {
       fetch('/api/transaction/bulk', {
         method: 'POST',
-        body: JSON.stringify(getAll.results),
+        body: JSON.stringify(getAll.result),
         headers: {
           Accept: 'application/json, text/plain, */*',
           'Content-Type': 'application/json'
@@ -44,8 +44,8 @@ function uploadBudget() {
           if (serverResponse.message) {
             throw new Error(serverResponse);
           }
-          const trasnaction = db.trasnaction(['new_budget'], 'readwrite');
-          const budgetObjectStore = trasnaction.objectStore('new_budget');
+          const transaction = db.transaction(['new_budget'], 'readwrite');
+          const budgetObjectStore = transaction.objectStore('new_budget');
           budgetObjectStore.clear();
         })
         .catch(err => {
