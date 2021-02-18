@@ -1,59 +1,32 @@
-## pwa-budget-tracker
+# Budget-Tracker-App
 
----
+## Description
 
-# AS AN avid traveler
+Budget tracker application with offline access and functionality.
 
-# I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
+## Table of Contents:
 
-# SO THAT my account balance is accurate when I am traveling
+- [Description](#description)
+- [Built With](#built-with)
+- [Repository](#repository)
+- [License](#license)
 
-# GIVEN a budget tracker without an internet connection
+## Built With
 
-# WHEN the user inputs an expense or deposit
+JavaScript, Node, Express, MongoDB, Mongoosejs, Compression, Morgan
 
-# THEN they will receive a notification that they have added an expense or deposit
+## Project Repository
 
-# WHEN the user reestablishes an internet connection
+[Repository Link](https://github.com/JamesCostello-dev/super-journey)
 
-# THEN the deposits or expenses added while they were offline are added to their transaction history and their totals are updated
+## Media
 
----
+![19-pwa-homework-demo-01](https://user-images.githubusercontent.com/28774706/108287172-9fa5ec00-7147-11eb-86ac-058554659b43.png)
 
-# use IndexedDB to add offline functionality. Review Module 18: NoSQL, Lesson 4: Add Offline Persistence with IndexedDB as a refresher on how to add this to your application.
+## Contributions
 
-# add a service worker to your application. Review Module 19: Progressive Web Applications (PWA), Lesson 4: Using Service Workers as a refresher on how to add this to your application.
+Made by: James-Costello-dev
 
-# Chrome DevTools makes it possible to test service workers on localhost in development. Simply click the Application tab, then select Service Workers from the menu on the left.
+## License
 
----
-
-# add your idb.js file to the public/js/ directory of your application.
-
-# add your service worker to the root of the public/ directory of your application.
-
----
-
-# The ability to enter deposits offline.
-
-# The ability to enter expenses offline.
-
-# Offline entries should be added to the tracker when the application is brought back online.
-
----
-
-# add a web manifest to your application with the app’s metadata
-
-# manifest.json file and add the following properties(create manually and add to the root o public/ 'Review module 19 (PWA) lesson 5')
-
-'name'
-'short name'
-'icon'
-'theme_color'
-'background_color'
-'start_url'
-'display'
-
----
-
-# deploy to heroku and mongo atlas(module 18 lesson 5)
+This application is unlicensed.
