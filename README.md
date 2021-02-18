@@ -25,7 +25,7 @@ JavaScript, Node, Express, MongoDB, Mongoosejs, Compression, Morgan
 
 ## Contributions
 
-Made by: James-Costello-dev
+Made by: JamesCostello-dev
 
 ## License
 
