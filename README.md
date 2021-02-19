@@ -11,7 +11,7 @@ Budget tracker application with offline access and functionality.
 - [Repository](#repository)
 - [License](#license)
 
-## Built With
+## Tech
 
 JavaScript, Node, Express, MongoDB, Mongoosejs, Compression, Morgan
 
