@@ -9,6 +9,7 @@ Budget tracker application with offline access and functionality.
 - [Description](#description)
 - [Built With](#built-with)
 - [Repository](#repository)
+- [Deployed](#repository)
 - [License](#license)
 
 ## Tech
@@ -21,7 +22,7 @@ JavaScript, Node, Express, MongoDB, Mongoosejs, Compression, Morgan
 
 ## Deployed Application
 
-[Repository Link](https://polar-chamber-46151.herokuapp.com/)
+[Deployed Link](https://polar-chamber-46151.herokuapp.com/)
 
 ## Media
 
