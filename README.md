@@ -22,7 +22,7 @@ JavaScript, Node, Express, MongoDB, Mongoose, Compression, Morgan
 
 ## Deployed Application
 
-[Deployed Link](https://polar-chamber-46151.herokuapp.com/)
+[Deployed Link](https://pure-mesa-60741.herokuapp.com/)
 
 ## Media
 
