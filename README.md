@@ -8,17 +8,12 @@ Budget tracker application with offline access and functionality.
 
 - [Description](#description)
 - [Built With](#built-with)
-- [Repository](#repository)
 - [Deployed](#repository)
 - [License](#license)
 
 ## Tech
 
 JavaScript, Node, Express, MongoDB, Mongoose, Compression, Morgan
-
-## Project Repository
-
-[Repository Link](https://github.com/JamesCostello-dev/curly-octo-fortnight)
 
 ## Deployed Application
 
