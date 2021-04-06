@@ -2,7 +2,7 @@
 
 ## Description
 
-Budget tracker application with offline access and functionality.
+Budget tracker is a progressive web application with offline access and functionality.
 
 ## Table of Contents:
 
