@@ -7,21 +7,27 @@ Budget tracker is a progressive web application with offline access and function
 ## Table of Contents:
 
 - [Description](#description)
-- [Built With](#built-with)
-- [Deployed](#repository)
+- [Tech](#tech)
+- [Install](#install)
+- [Deployed Application](#deployed-application)
 - [License](#license)
 
 ## Tech
 
-JavaScript, Node, Express, MongoDB, Mongoose, Compression, Morgan
+* JavaScript
+* Node
+* Express
+* MongoDB
+
+## Install
 
 ## Deployed Application
 
-[Deployed Link](https://pure-mesa-60741.herokuapp.com/)
+[View Budget Tracker](https://pure-mesa-60741.herokuapp.com/)
 
 ## Media
 
-![19-pwa-homework-demo-01](https://user-images.githubusercontent.com/28774706/108287172-9fa5ec00-7147-11eb-86ac-058554659b43.png)
+![pwa-screenshot](https://user-images.githubusercontent.com/28774706/108287172-9fa5ec00-7147-11eb-86ac-058554659b43.png)
 
 ## Contributions
 
