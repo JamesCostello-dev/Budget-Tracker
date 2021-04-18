@@ -22,6 +22,18 @@ Budget tracker is a progressive web application with offline access and function
 
 ## Install
 
+`open terminal`
+
+`git clone git@github.com:JamesCostello-dev/Budget-Tracker.git`
+
+`Budget-Tracker`
+
+`npm install`
+
+`npm start`
+
+Go to http://localhost:3001/ in your prefered browser.
+
 ## Deployed Application
 
 [View Budget Tracker](https://pure-mesa-60741.herokuapp.com/)
