@@ -26,7 +26,7 @@ Budget tracker is a progressive web application with offline access and function
 
 `git clone git@github.com:JamesCostello-dev/Budget-Tracker.git`
 
-`Budget-Tracker`
+`cd Budget-Tracker`
 
 `npm install`
 
