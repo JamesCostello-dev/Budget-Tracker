@@ -13,7 +13,8 @@ Budget tracker is a progressive web application with offline access and function
 - [License](#license)
 
 ## Tech
-
+* HTML
+* CSS
 * JavaScript
 * Node
 * Express
