@@ -32,7 +32,7 @@ Budget tracker is a progressive web application with offline access and function
 Go to http://localhost:3001/ in your prefered browser.
 
 ## Deployed Application
-[View Budget Tracker](https://pure-mesa-60741.herokuapp.com/)
+[View Budget Tracker](https://budget-tracker-c5daa.web.app//)
 
 ## Media
 ![pwa-screenshot](https://user-images.githubusercontent.com/28774706/108287172-9fa5ec00-7147-11eb-86ac-058554659b43.png)
